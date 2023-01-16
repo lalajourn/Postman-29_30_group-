@@ -147,6 +147,42 @@
 			"response": []
 		},
 		{
+			"name": "EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Sofia&age=11&salary=150",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sofia"
+						},
+						{
+							"key": "age",
+							"value": "11"
+						},
+						{
+							"key": "salary",
+							"value": "150"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "EP_2",
 			"request": {
 				"method": "POST",
